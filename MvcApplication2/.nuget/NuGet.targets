@@ -116,7 +116,7 @@
 
                     Log.LogMessage("Downloading latest version of NuGet.exe...");
                     WebClient webClient = new WebClient();
-                    webClient.DownloadFile("http://ci.nuget.org:8080/repository/download/bt43/.lastSuccessful/Console/NuGet.exe?guest=1", OutputFilename);
+                    webClient.DownloadFile("http://build.nuget.org/repository/download/bt4/.lastSuccessful/Console/NuGet.exe?guest=1", OutputFilename);
 
                     return true;
                 }
